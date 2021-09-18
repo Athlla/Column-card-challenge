@@ -78,6 +78,8 @@ body {
 
     &__title {
       font-size: 2.5rem;
+      text-transform: uppercase;
+      font-family: 'Big Shoulders Display', sans-serif;
     }
 
     &__desc {
@@ -88,11 +90,20 @@ body {
     &__button {
       width: 150px;
       height: 48px;
+      cursor: pointer;
       font-weight: bold;
       border-radius: 25px;
       mix-blend-mode: screen;
+      transition: all 300ms ease;
       background: $very-light-gray;
       border: 2px solid $very-light-gray;
+      font-family: 'Lexend Deca', sans-serif;
+
+      &:hover,
+      &:active {
+        background: transparent;
+        color: $very-light-gray;
+      }
     }
   }
 }
