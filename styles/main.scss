@@ -84,7 +84,8 @@ body {
     }
 
     &__desc {
-      line-height: 1.5;
+      line-height: 1.7;
+      color: $transparent-white;
       height: 170px;
     }
 
@@ -112,7 +113,7 @@ body {
 .attribution {
   font-size: 11px;
   text-align: center;
-  margin: 2.5rem 0;
+  margin: 2rem 0;
 
   a {
     color: $dark-cyan;
